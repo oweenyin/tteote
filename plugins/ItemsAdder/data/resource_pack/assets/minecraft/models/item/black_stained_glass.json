@@ -1,0 +1,113 @@
+{
+  "parent": "minecraft:block/black_stained_glass",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "blockus:auto_generated/beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "blockus:auto_generated/black_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "blockus:auto_generated/blue_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "blockus:auto_generated/brown_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
+      },
+      "model": "blockus:auto_generated/cyan_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10005
+      },
+      "model": "blockus:auto_generated/gray_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10006
+      },
+      "model": "blockus:auto_generated/green_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10007
+      },
+      "model": "blockus:auto_generated/light_blue_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10008
+      },
+      "model": "blockus:auto_generated/light_gray_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10009
+      },
+      "model": "blockus:auto_generated/lime_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10010
+      },
+      "model": "blockus:auto_generated/magenta_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10011
+      },
+      "model": "blockus:auto_generated/orange_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10012
+      },
+      "model": "blockus:auto_generated/pink_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10013
+      },
+      "model": "blockus:auto_generated/purple_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10014
+      },
+      "model": "blockus:auto_generated/red_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10015
+      },
+      "model": "blockus:auto_generated/white_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10016
+      },
+      "model": "blockus:auto_generated/yellow_beveled_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10017
+      },
+      "model": "minecraft:item/black_stained_glass"
+    }
+  ]
+}

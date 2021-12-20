@@ -1,0 +1,52 @@
+info:
+  namespace: customfire
+items:
+  blue_fire:
+    enabled: true
+    display_name: display-name-blue-fire
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - "block/blue/blue_fire_0"
+      - "block/blue/blue_fire_1"
+    specific_properties:
+      block:
+        placed_model:
+          type: FIRE
+  blue_fire_chemical_igniter:
+    enabled: true
+    display_name: display-name-blue-chemical-igniter
+    lore:
+      - display-lore-chemical-materials
+      - ""
+      - display-lore-chemical-contains
+      - display-lore-blue-fire-ingredient-1
+      - display-lore-blue-fire-ingredient-2
+      - ""
+      - display-lore-chemical-how-to-use
+    resource:
+      generate: true
+      material: IRON_SWORD
+      textures:
+      - "item/blue_fire_chemical_igniter"
+    durability:
+      max_custom_durability: 8
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 0.0
+        attackSpeed: 4.0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    events:
+      interact:
+        right:
+          cancel: true
+          replace_block:
+            from: FIRE
+            to: blue_fire
+            decrement_durability: 1
+          play_sound:
+            name: minecraft:block.fire.extinguish
+            volume: 1
+            pitch: 1.2

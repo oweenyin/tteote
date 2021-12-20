@@ -1,0 +1,15 @@
+databasetype: sqlite
+table-prefix: pkrpg
+mysql:
+  host: localhost
+  user: root
+  password: '1234'
+  database: minecraft
+  port: '3306'
+Experience:
+  LevelMulti: 30.0
+  Player:
+    Min: 50
+  Entity:
+    Min: 25
+    Max: 30

@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:block/stone",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "blockus:auto_generated/bluestone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "blockus:auto_generated/limestone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "blockus:auto_generated/marble"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "minecraft:item/stone"
+    }
+  ]
+}

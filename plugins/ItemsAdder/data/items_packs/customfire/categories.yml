@@ -1,0 +1,20 @@
+info:
+  namespace: customfire
+categories:
+  custom_fire:
+    enabled: true
+    skip_if_already: true
+    icon: black_fire
+    name: display-category-customfire
+    permission: ia.menu.custom_fire
+    items:
+      - customfire:black_fire_chemical_igniter
+      - customfire:blue_fire_chemical_igniter
+      - customfire:green_fire_chemical_igniter
+      - customfire:purple_fire_chemical_igniter
+      - customfire:white_fire_chemical_igniter
+      - customfire:black_fire
+      - customfire:blue_fire
+      - customfire:green_fire
+      - customfire:purple_fire
+      - customfire:white_fire

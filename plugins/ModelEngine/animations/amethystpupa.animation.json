@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"land": {
+			"loop": true,
+			"animation_length": 5.2,
+			"override_previous_animation": true,
+			"bones": {
+				"pupa": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"5.2": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"5.2": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"idle": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"pupa": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.52": [0, 180, 180],
+						"1.04": [0, 360, 360]
+					}
+				}
+			}
+		}
+	}
+}

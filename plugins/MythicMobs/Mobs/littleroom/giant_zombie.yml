@@ -1,0 +1,25 @@
+
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+giant_zombie:
+  Type: ZOMBIE
+  Health: 1000
+  Damage: 5
+  Options:
+    KnockbackResistance: 1
+    MovementSpeed: 0.5
+  AITargetSelectors: 
+  - players
+  Display: 'Giant Zombie'
+  Skills:
+  - model{mid=giantzombie;n=false} @self ~onSpawn
+  - skill{s=giantzombieATTACKsync;sync=true} @self ~onAttack
+  - skill{s=giantzombieDEATH} @self ~onDeath
+  BossBar:
+    Enabled: true
+    Title: 'Big Fucking Zombie'
+    Range: 50
+    Color: GREEN
+    Style: SOLID

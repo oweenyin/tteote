@@ -1,0 +1,1619 @@
+{
+  "parent": "minecraft:block/oak_planks",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "blockus:auto_generated/bamboo_planks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "blockus:auto_generated/charred_planks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "blockus:auto_generated/white_oak_planks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "blockus:auto_generated/acacia_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
+      },
+      "model": "blockus:auto_generated/bamboo_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10005
+      },
+      "model": "blockus:auto_generated/birch_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10006
+      },
+      "model": "blockus:auto_generated/charred_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10007
+      },
+      "model": "blockus:auto_generated/crimson_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10008
+      },
+      "model": "blockus:auto_generated/dark_oak_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10009
+      },
+      "model": "blockus:auto_generated/jungle_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10010
+      },
+      "model": "blockus:auto_generated/oak_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10011
+      },
+      "model": "blockus:auto_generated/warped_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10012
+      },
+      "model": "blockus:auto_generated/white_oak_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10013
+      },
+      "model": "blockus:auto_generated/acacia_timber_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10014
+      },
+      "model": "blockus:auto_generated/bamboo_timber_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10015
+      },
+      "model": "blockus:auto_generated/birch_timber_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10016
+      },
+      "model": "blockus:auto_generated/charred_timber_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10017
+      },
+      "model": "blockus:auto_generated/crimson_timber_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10018
+      },
+      "model": "blockus:auto_generated/dark_oak_timber_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10019
+      },
+      "model": "blockus:auto_generated/jungle_timber_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10020
+      },
+      "model": "blockus:auto_generated/oak_timber_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10021
+      },
+      "model": "blockus:auto_generated/spruce_timber_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10022
+      },
+      "model": "blockus:auto_generated/white_oak_timber_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10023
+      },
+      "model": "blockus:auto_generated/warped_timber_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10024
+      },
+      "model": "blockus:auto_generated/wooden_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10025
+      },
+      "model": "blockus:auto_generated/apple_crate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10026
+      },
+      "model": "blockus:auto_generated/beetroot_crate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10027
+      },
+      "model": "blockus:auto_generated/carrot_crate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10028
+      },
+      "model": "blockus:auto_generated/sweet_berries_crate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10029
+      },
+      "model": "blockus:auto_generated/cod_crate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10030
+      },
+      "model": "blockus:auto_generated/golden_apple_crate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10031
+      },
+      "model": "blockus:auto_generated/golden_carrot_crate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10032
+      },
+      "model": "blockus:auto_generated/potato_crate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10033
+      },
+      "model": "blockus:auto_generated/tropical_fish_crate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10034
+      },
+      "model": "blockus:auto_generated/salmon_crate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10035
+      },
+      "model": "blockus:auto_generated/pufferfish_crate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10036
+      },
+      "model": "blockus:auto_generated/acacia_small_logs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10037
+      },
+      "model": "blockus:auto_generated/birch_small_logs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10038
+      },
+      "model": "blockus:auto_generated/crimson_small_stems"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10039
+      },
+      "model": "blockus:auto_generated/dark_oak_small_logs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10040
+      },
+      "model": "blockus:auto_generated/jungle_small_logs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10041
+      },
+      "model": "blockus:auto_generated/oak_small_logs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10042
+      },
+      "model": "blockus:auto_generated/spruce_small_logs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10043
+      },
+      "model": "blockus:auto_generated/warped_small_stems"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10044
+      },
+      "model": "blockus:auto_generated/white_oak_small_logs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10045
+      },
+      "model": "blockus:auto_generated/blaze_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10046
+      },
+      "model": "blockus:auto_generated/blue_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10047
+      },
+      "model": "blockus:auto_generated/bluestone_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10048
+      },
+      "model": "blockus:auto_generated/brown_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10049
+      },
+      "model": "blockus:auto_generated/charred_nether_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10050
+      },
+      "model": "blockus:auto_generated/cyan_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10051
+      },
+      "model": "blockus:auto_generated/end_stone_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10052
+      },
+      "model": "blockus:auto_generated/gray_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10053
+      },
+      "model": "blockus:auto_generated/green_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10054
+      },
+      "model": "blockus:auto_generated/light_blue_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10055
+      },
+      "model": "blockus:auto_generated/light_gray_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10056
+      },
+      "model": "blockus:auto_generated/lime_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10057
+      },
+      "model": "blockus:auto_generated/limestone_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10058
+      },
+      "model": "blockus:auto_generated/magenta_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10059
+      },
+      "model": "blockus:auto_generated/marble_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10060
+      },
+      "model": "blockus:auto_generated/nether_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10061
+      },
+      "model": "blockus:auto_generated/obsidian_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10062
+      },
+      "model": "blockus:auto_generated/orange_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10063
+      },
+      "model": "blockus:auto_generated/pink_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10064
+      },
+      "model": "blockus:auto_generated/polished_andesite_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10065
+      },
+      "model": "blockus:auto_generated/polished_blackstone_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10066
+      },
+      "model": "blockus:auto_generated/polished_diorite_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10067
+      },
+      "model": "blockus:auto_generated/polished_granite_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10068
+      },
+      "model": "blockus:auto_generated/purpleglazedterracottapillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10069
+      },
+      "model": "blockus:auto_generated/red_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10070
+      },
+      "model": "blockus:auto_generated/red_nether_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10071
+      },
+      "model": "blockus:auto_generated/stone_bricks_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10072
+      },
+      "model": "blockus:auto_generated/teal_nether_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10073
+      },
+      "model": "blockus:auto_generated/white_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10074
+      },
+      "model": "blockus:auto_generated/yellow_glazed_terracotta_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10075
+      },
+      "model": "blockus:auto_generated/asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10076
+      },
+      "model": "blockus:auto_generated/blue_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10077
+      },
+      "model": "blockus:auto_generated/brown_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10078
+      },
+      "model": "blockus:auto_generated/cyan_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10079
+      },
+      "model": "blockus:auto_generated/gray_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10080
+      },
+      "model": "blockus:auto_generated/green_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10081
+      },
+      "model": "blockus:auto_generated/light_blue_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10082
+      },
+      "model": "blockus:auto_generated/light_gray_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10083
+      },
+      "model": "blockus:auto_generated/lime_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10084
+      },
+      "model": "blockus:auto_generated/magenta_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10085
+      },
+      "model": "blockus:auto_generated/orange_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10086
+      },
+      "model": "blockus:auto_generated/pink_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10087
+      },
+      "model": "blockus:auto_generated/purple_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10088
+      },
+      "model": "blockus:auto_generated/red_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10089
+      },
+      "model": "blockus:auto_generated/white_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10090
+      },
+      "model": "blockus:auto_generated/yellow_asphalt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10091
+      },
+      "model": "blockus:auto_generated/black_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10092
+      },
+      "model": "blockus:auto_generated/blue_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10093
+      },
+      "model": "blockus:auto_generated/brown_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10094
+      },
+      "model": "blockus:auto_generated/cyan_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10095
+      },
+      "model": "blockus:auto_generated/gray_bright_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10096
+      },
+      "model": "blockus:auto_generated/gray_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10097
+      },
+      "model": "blockus:auto_generated/green_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10098
+      },
+      "model": "blockus:auto_generated/light_blue_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10099
+      },
+      "model": "blockus:auto_generated/light_gray_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10100
+      },
+      "model": "blockus:auto_generated/lime_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10101
+      },
+      "model": "blockus:auto_generated/magenta_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10102
+      },
+      "model": "blockus:auto_generated/orange_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10103
+      },
+      "model": "blockus:auto_generated/pink_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10104
+      },
+      "model": "blockus:auto_generated/purple_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10105
+      },
+      "model": "blockus:auto_generated/red_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10106
+      },
+      "model": "blockus:auto_generated/white_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10107
+      },
+      "model": "blockus:auto_generated/yellow_futurneo_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10108
+      },
+      "model": "blockus:auto_generated/black_blue_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10109
+      },
+      "model": "blockus:auto_generated/black_gray_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10110
+      },
+      "model": "blockus:auto_generated/black_red_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10111
+      },
+      "model": "blockus:auto_generated/black_white_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10112
+      },
+      "model": "blockus:auto_generated/blue_cyan_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10113
+      },
+      "model": "blockus:auto_generated/bluestone_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10114
+      },
+      "model": "blockus:auto_generated/green_brown_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10115
+      },
+      "model": "blockus:auto_generated/green_orange_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10116
+      },
+      "model": "blockus:auto_generated/light_blue_white_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10117
+      },
+      "model": "blockus:auto_generated/light_blue_yellow_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10118
+      },
+      "model": "blockus:auto_generated/lime_yellow_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10119
+      },
+      "model": "blockus:auto_generated/magenta_black_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10120
+      },
+      "model": "blockus:auto_generated/pink_magenta_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10121
+      },
+      "model": "blockus:auto_generated/purple_blue_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10122
+      },
+      "model": "blockus:auto_generated/purple_orange_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10123
+      },
+      "model": "blockus:auto_generated/red_blue_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10124
+      },
+      "model": "blockus:auto_generated/red_white_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10125
+      },
+      "model": "blockus:auto_generated/zigzagged_andesite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10126
+      },
+      "model": "blockus:auto_generated/zigzagged_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10127
+      },
+      "model": "blockus:auto_generated/zigzagged_charred_nether_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10128
+      },
+      "model": "blockus:auto_generated/zigzagged_diorite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10129
+      },
+      "model": "blockus:auto_generated/zigzagged_end_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10130
+      },
+      "model": "blockus:auto_generated/zigzagged_granite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10131
+      },
+      "model": "blockus:auto_generated/zigzagged_nether_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10132
+      },
+      "model": "blockus:auto_generated/zigzagged_polished_blackstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10133
+      },
+      "model": "blockus:auto_generated/zigzagged_red_nether_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10134
+      },
+      "model": "blockus:auto_generated/zigzagged_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10135
+      },
+      "model": "blockus:auto_generated/zigzagged_teal_nether_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10136
+      },
+      "model": "blockus:auto_generated/chiseled_andesite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10137
+      },
+      "model": "blockus:auto_generated/chiseled_bluestone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10138
+      },
+      "model": "blockus:auto_generated/chiseled_diorite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10139
+      },
+      "model": "blockus:auto_generated/chiseled_end_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10140
+      },
+      "model": "blockus:auto_generated/chiseled_granite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10141
+      },
+      "model": "blockus:auto_generated/chiseled_limestone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10142
+      },
+      "model": "blockus:auto_generated/chiseled_marble"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10143
+      },
+      "model": "blockus:auto_generated/chiseled_marble_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10144
+      },
+      "model": "blockus:auto_generated/chiseled_purpur"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10145
+      },
+      "model": "blockus:auto_generated/chiseled_soul_sandstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10146
+      },
+      "model": "blockus:auto_generated/black_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10147
+      },
+      "model": "blockus:auto_generated/blue_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10148
+      },
+      "model": "blockus:auto_generated/brown_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10149
+      },
+      "model": "blockus:auto_generated/cracked_end_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10150
+      },
+      "model": "blockus:auto_generated/cyan_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10151
+      },
+      "model": "blockus:auto_generated/gray_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10152
+      },
+      "model": "blockus:auto_generated/green_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10153
+      },
+      "model": "blockus:auto_generated/light_blue_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10154
+      },
+      "model": "blockus:auto_generated/lime_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10155
+      },
+      "model": "blockus:auto_generated/magenta_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10156
+      },
+      "model": "blockus:auto_generated/orange_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10157
+      },
+      "model": "blockus:auto_generated/pink_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10158
+      },
+      "model": "blockus:auto_generated/purple_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10159
+      },
+      "model": "blockus:auto_generated/red_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10160
+      },
+      "model": "blockus:auto_generated/white_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10161
+      },
+      "model": "blockus:auto_generated/yellow_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10162
+      },
+      "model": "blockus:auto_generated/andesite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10163
+      },
+      "model": "blockus:auto_generated/bluestone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10164
+      },
+      "model": "blockus:auto_generated/bluestone_little_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10165
+      },
+      "model": "blockus:auto_generated/charred_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10166
+      },
+      "model": "blockus:auto_generated/charred_nether_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10167
+      },
+      "model": "blockus:auto_generated/cracked_andesite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10168
+      },
+      "model": "blockus:auto_generated/cracked_diorite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10169
+      },
+      "model": "blockus:auto_generated/cracked_granite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10170
+      },
+      "model": "blockus:auto_generated/crimson_warty_blackstone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10171
+      },
+      "model": "blockus:auto_generated/diorite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10172
+      },
+      "model": "blockus:auto_generated/granite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10173
+      },
+      "model": "blockus:auto_generated/honeycomb_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10174
+      },
+      "model": "blockus:auto_generated/large_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10175
+      },
+      "model": "blockus:auto_generated/limestone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10176
+      },
+      "model": "blockus:auto_generated/marble_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10177
+      },
+      "model": "blockus:auto_generated/obsidian_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10178
+      },
+      "model": "blockus:auto_generated/purpur_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10179
+      },
+      "model": "blockus:auto_generated/purpur_little_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10180
+      },
+      "model": "blockus:auto_generated/quartz_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10181
+      },
+      "model": "blockus:auto_generated/red_nether_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10182
+      },
+      "model": "blockus:auto_generated/red_sandstone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10183
+      },
+      "model": "blockus:auto_generated/sandstone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10184
+      },
+      "model": "blockus:auto_generated/sandy_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10185
+      },
+      "model": "blockus:auto_generated/small_red_sandstone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10186
+      },
+      "model": "blockus:auto_generated/small_sandstone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10187
+      },
+      "model": "blockus:auto_generated/small_soul_sandstone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10188
+      },
+      "model": "blockus:auto_generated/smooth_charred_nether_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10189
+      },
+      "model": "blockus:auto_generated/smooth_nether_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10190
+      },
+      "model": "blockus:auto_generated/smooth_red_nether_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10191
+      },
+      "model": "blockus:auto_generated/smooth_teal_nether_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10192
+      },
+      "model": "blockus:auto_generated/soaked_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10193
+      },
+      "model": "blockus:auto_generated/soul_sandstone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10194
+      },
+      "model": "blockus:auto_generated/teal_nether_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10195
+      },
+      "model": "blockus:auto_generated/warped_warty_blackstone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10196
+      },
+      "model": "blockus:auto_generated/andesite_circle_pavement"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10197
+      },
+      "model": "blockus:auto_generated/diorite_circle_pavement"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10198
+      },
+      "model": "blockus:auto_generated/granite_circle_pavement"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10199
+      },
+      "model": "blockus:auto_generated/limestone_circle_pavement"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10200
+      },
+      "model": "blockus:auto_generated/marble_circle_pavement"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10201
+      },
+      "model": "blockus:auto_generated/netherrack_circle_pavement"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10202
+      },
+      "model": "blockus:auto_generated/obsidian_circle_pavement"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10203
+      },
+      "model": "blockus:auto_generated/polished_blackstone_circle_pavement"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10204
+      },
+      "model": "blockus:auto_generated/prismarine_circle_pavement"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10205
+      },
+      "model": "blockus:auto_generated/quartz_circle_pavement"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10206
+      },
+      "model": "blockus:auto_generated/stone_circle_pavement"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10207
+      },
+      "model": "blockus:auto_generated/black_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10208
+      },
+      "model": "blockus:auto_generated/blue_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10209
+      },
+      "model": "blockus:auto_generated/brown_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10210
+      },
+      "model": "blockus:auto_generated/cyan_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10211
+      },
+      "model": "blockus:auto_generated/gray_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10212
+      },
+      "model": "blockus:auto_generated/green_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10213
+      },
+      "model": "blockus:auto_generated/light_blue_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10214
+      },
+      "model": "blockus:auto_generated/light_gray_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10215
+      },
+      "model": "blockus:auto_generated/lime_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10216
+      },
+      "model": "blockus:auto_generated/magenta_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10217
+      },
+      "model": "blockus:auto_generated/orange_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10218
+      },
+      "model": "blockus:auto_generated/pink_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10219
+      },
+      "model": "blockus:auto_generated/purple_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10220
+      },
+      "model": "blockus:auto_generated/red_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10221
+      },
+      "model": "blockus:auto_generated/white_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10222
+      },
+      "model": "blockus:auto_generated/yellow_shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10223
+      },
+      "model": "blockus:auto_generated/shingles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10224
+      },
+      "model": "blockus:auto_generated/bluestone_lines"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10225
+      },
+      "model": "blockus:auto_generated/bluestone_squares"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10226
+      },
+      "model": "blockus:auto_generated/burned_paper_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10227
+      },
+      "model": "blockus:auto_generated/caution_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10228
+      },
+      "model": "blockus:auto_generated/companion_cube"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10229
+      },
+      "model": "blockus:auto_generated/cookie_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10230
+      },
+      "model": "blockus:auto_generated/cut_soul_sandstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10231
+      },
+      "model": "blockus:auto_generated/ender_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10232
+      },
+      "model": "blockus:auto_generated/iron_plating"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10233
+      },
+      "model": "blockus:auto_generated/love_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10234
+      },
+      "model": "blockus:auto_generated/membrane_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10235
+      },
+      "model": "blockus:auto_generated/paper_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10236
+      },
+      "model": "blockus:auto_generated/paper_wall"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10237
+      },
+      "model": "blockus:auto_generated/polished_end_stone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10238
+      },
+      "model": "blockus:auto_generated/polished_netherrack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10239
+      },
+      "model": "blockus:auto_generated/purpur_lines"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10240
+      },
+      "model": "blockus:auto_generated/purpur_squares"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10241
+      },
+      "model": "blockus:auto_generated/redstone_sand"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10242
+      },
+      "model": "blockus:auto_generated/road_barrier"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10243
+      },
+      "model": "blockus:auto_generated/rotten_flesh_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10244
+      },
+      "model": "blockus:auto_generated/smooth_bluestone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10245
+      },
+      "model": "blockus:auto_generated/smoothpurpur"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10246
+      },
+      "model": "blockus:auto_generated/sugar_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10247
+      },
+      "model": "blockus:auto_generated/thatch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10248
+      },
+      "model": "blockus:auto_generated/weight_storage_cube"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10249
+      },
+      "model": "blockus:auto_generated/white_oak_leaves"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10250
+      },
+      "model": "blockus:auto_generated/bread_box"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10251
+      },
+      "model": "blockus:auto_generated/chorus_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10252
+      },
+      "model": "blockus:auto_generated/soul_sandstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10253
+      },
+      "model": "blockus:auto_generated/white_oak_log"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10254
+      },
+      "model": "blockus:auto_generated/stripped_white_oak_log"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10255
+      },
+      "model": "blockus:auto_generated/blaze_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10256
+      },
+      "model": "blockus:auto_generated/chiseled_lava_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10257
+      },
+      "model": "blockus:auto_generated/chiseled_lava_polished_blackstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10258
+      },
+      "model": "blockus:auto_generated/chiseled_water_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10259
+      },
+      "model": "blockus:auto_generated/lava_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10260
+      },
+      "model": "blockus:auto_generated/lava_polished_blackstone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10261
+      },
+      "model": "blockus:auto_generated/magma_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10262
+      },
+      "model": "blockus:auto_generated/nether_stars_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10263
+      },
+      "model": "blockus:auto_generated/rainbow_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10264
+      },
+      "model": "blockus:auto_generated/rainbow_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10265
+      },
+      "model": "blockus:auto_generated/rainbow_colored_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10266
+      },
+      "model": "blockus:auto_generated/stars_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10267
+      },
+      "model": "blockus:auto_generated/water_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10268
+      },
+      "model": "minecraft:item/oak_planks"
+    }
+  ]
+}

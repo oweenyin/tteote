@@ -1,0 +1,80 @@
+PKPlayer:
+  OnLevel:
+  - '&aYou have leveled up to level %level%!'
+  - '&aYou feel the chi flowing through you... Your level is now %level%!'
+  LevelUp: '&a&lLevel up!'
+  Ability:
+    OnLevel:
+    - '&aYour ability %ability% leveled up to level %level%!'
+    - '&aYou feel as your %ability% is stronger... Your level is now %level%!'
+  OnKill:
+    Entity:
+    - '&7You have gained %xp% XP.'
+    - '&7The power surges through you... You gain %xp% XP'
+    Player:
+    - '&7You have obliterated %player_name%, you gained %xp% XP.'
+    - '&7%player_name% didn''t stand a chance! You gained %xp% XP.'
+GUI:
+  PKAbilityPointPanel:
+    Top: '&6%player_name% - %element_color%%ability_name%||&7Level &6&l%ability_level%||&7Skill
+      points available: &6&l%ability_skillpoints%|| ||&7Kills: &6%ability_kills%'
+    Upgrade: '&7Click to upgrade to: &6%upgrade%'
+  PKElementPointsPanel:
+    Top: '&6%player_name% - %element_color%%element%'
+    Upgrade: '&6Click to see %element_color%%ability% &6stats!'
+  PKStatsPanel:
+    Top: '&6%player_name% - &dStats||&7Level &6&l%pkrpg_level%||&7Skill points available:
+      &6&l%pkrpg_skillpoints%|| ||&7Kills: &6%pkrpg_kills%'
+    Upgrade: '&7Click to upgrade to: &6%upgrade%'
+Command:
+  Success: '&aSuccess!'
+  Fail: '&cCommand couldn''t be executed!'
+  FailContactAdmins: '&c&lAn internal error has occurred! Please contact server admins.'
+  InsufficientPermissions: You don't have the permission to use this command!
+  MustBePlayer: You must be a player to execute this command!
+  Usage: 'Usage: '
+  Description: 'Description: '
+  'Yes': '&aYes'
+  'No': '&4No'
+  PlayerNotOnline: Player %player% is not online!
+  LocationIsNotSet: '&cLocation is not set!'
+  IncorrectSelection: '&cIncorrect selection!'
+  PKStatsCommand:
+    ElementNotExist: '&cThat element doesn''t exist!'
+    Description: Allows you to spend your skill points.
+  Panel:
+    Description: Panel control
+  Reload:
+    Description: Allows you to reload the configs
+Title:
+  X:
+    Name: '&c&l{&4&l✖&r&c&l}'
+    Description: '&c&lLeave'
+PlayerGlide:
+  Wait: '&7Ładowanie terenu...'
+InputForm:
+  Start: '&8Started "&r%name%&r&8" creator!||&8Podaj: &l%input%'
+  Input: '&8%previous%&a&l+||&8&aInput: &l%input%'
+  InputDefault: '&8%previous%&a&l+||&8Input: &a&l%input%&r&8 ("DEFAULT_VALUE" for
+    default value)'
+  Fail: '&8Incorrect form!||&8Input: &l%input%'
+  Finish: '&8&lCreated "&r%name%&r&8"!'
+Attributes:
+  Damage:
+    message: Damage
+    hover: ''
+  Cooldown:
+    message: Cooldown
+    hover: ''
+  Duration:
+    message: Duration
+    hover: ''
+  Speed:
+    message: Speed
+    hover: ''
+  Range:
+    message: Range
+    hover: ''
+  Knockback:
+    message: Knockback
+    hover: ''

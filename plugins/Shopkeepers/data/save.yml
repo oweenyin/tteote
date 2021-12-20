@@ -1,0 +1,766 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+data-version: 3|1|2730
+'2':
+  uniqueId: feeb7a9d-e56b-43b8-920e-18fa28632eb0
+  world: world1
+  x: -25
+  y: 17
+  z: -942
+  yaw: 91.33172
+  type: admin
+  name: Mylard
+  object:
+    type: citizen
+    npcId: 1545a2d4-0270-4b58-abc4-675bfdba94d2
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: GOLDEN_APPLE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: GOLD_INGOT
+        amount: 40
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: APPLE
+        amount: 2
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_GOLDEN_APPLE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: GOLD_BLOCK
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: APPLE
+        amount: 2
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: NETHERITE_INGOT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 48
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: GOLD_INGOT
+        amount: 64
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Bloodnite"}'
+          lore:
+          - '{"text":""}'
+          - '{"italic":false,"color":"gray","text":"When in Main Hand:"}'
+          - '{"italic":false,"extra":[{"color":"dark_green","text":"9 Attack Damage"}],"text":"
+            "}'
+          - '{"italic":false,"extra":[{"color":"dark_green","text":"1.6 Attack Speed"}],"text":"
+            "}'
+          - '{"italic":false,"color":"gray","text":"Durability: 1250 / 1250"}'
+          custom-model-data: 10012
+          attribute-modifiers:
+            GENERIC_ATTACK_DAMAGE:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 7.0
+              name: itemsadder
+              slot: HAND
+              uuid: ba768239-8933-4e21-9a10-0ff74ce7bda5
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/22MQQ5AMBQFXxChG7FwHzdpPv9LGqrSVnAT53MSEhsLs5xkRgEKykSxgZjFp2gs7bpfQ3RW8+qpM5OJB5BdBcqZrISFevk2BRLDqLrJOZ4frcPmPKeofy85qoFG+dj2ZLzc72kUUI4AAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: REDSTONE_BLOCK
+        amount: 48
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 16
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: NETHERITE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Amethyst Axe"}'
+          custom-model-data: 1
+          internal: H4sIAAAAAAAA/+NiYOBg4PaNDPHwdI4PiQxwZeBJzE0tyagsLolPrEhlAACRmD1qIAAAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 48
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: IRON_INGOT
+        amount: 32
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: SHIELD
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"italic":false,"color":"white","text":"Amethyst Shield"}'
+          custom-model-data: 1
+          internal: H4sIAAAAAAAA/yWLsQ6CQBAFH2KBmCDfY4kh0cKE4hoqssAqF2FN7rbg+HogvGommZcCKbJi/He/UtRqMPSNEQVsuyCpSJWd+F0R41yQ5x0TnGyPfLLCnaOP3lsSYbc9l6OMZhzd9V2b5+vRmLoqcaOJdQheGz9YHnusqIbZrn8AAAA=
+          blockMaterial: SHIELD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: IRON_INGOT
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 32
+  snapshots: []
+'3':
+  uniqueId: f25e13d7-f074-4e40-8726-37c4cfca3bf8
+  world: world1
+  x: -979
+  y: 85
+  z: 1364
+  yaw: 199.4258
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: aa3013fb-5bee-42e4-9867-edbbe2601050
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: GOLDEN_APPLE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: GOLD_INGOT
+        amount: 8
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Customization Table"}'
+          custom-model-data: 10095
+          internal: H4sIAAAAAAAA/+NiYOBi4MosSc0tTkxJSS3iYODMS8xNLS5ITE5FFWfKTGEQTi4tLsnPzaxKLMnMz4svSUzKSWVgAACzljkURAAAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: WHITE_DYE
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: OAK_PLANKS
+        amount: 32
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Emerald Sword"}'
+          lore:
+          - '{"text":""}'
+          - '{"italic":false,"color":"gray","text":"When in Main Hand:"}'
+          - '{"italic":false,"extra":[{"color":"dark_green","text":"7 Attack Damage"}],"text":"
+            "}'
+          - '{"italic":false,"extra":[{"color":"dark_green","text":"1.6 Attack Speed"}],"text":"
+            "}'
+          - '{"italic":false,"color":"gray","text":"Durability: 1662 / 1662"}'
+          custom-model-data: 10006
+          attribute-modifiers:
+            GENERIC_ATTACK_DAMAGE:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 5.0
+              name: itemsadder
+              slot: HAND
+              uuid: 236ec4f6-aa59-46a7-a2b4-2dc40198d266
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/22MwQpAQBRFb5SYkiz8jz+ZHu+piYdmRtj4Dp9rYWPhLE+dYwAD46JoIGbxKRqlw/ZbiIta3jx1bnLxBLIrRzGTSlipl2+TI3GMUlQ8TWzDvnhOUf8+MlQDjfKx7c14eQCWtmwHjAAAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 8
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Ruby Axe"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Durability: 1561 / 1561"}'
+          custom-model-data: 10000
+          internal: H4sIAAAAAAAA/23LOwqAMBBF0YcBiWnEwsLduJMwZkYIGpV8QHfici1sLLzlhWMAA+OzhETMEhX6QKd1JeU9WC6RJr/6fAH1oNFsFCQd5ORrNCrP0LFMl6VTFLpfXqOdaZHPHW/G2wMRknmohwAAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_GOLDEN_APPLE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 32
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: APPLE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: GLASS_BOTTLE
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: WOODEN_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Baseball bat"}'
+          lore:
+          - '{"text":""}'
+          - '{"italic":false,"color":"gray","text":"When in Main Hand:"}'
+          - '{"italic":false,"extra":[{"color":"dark_green","text":"2 Attack Damage"}],"text":"
+            "}'
+          - '{"italic":false,"extra":[{"color":"dark_green","text":"4 Attack Speed"}],"text":"
+            "}'
+          - '{"italic":false,"color":"gray","text":"Durability: 40 / 40"}'
+          custom-model-data: 10000
+          attribute-modifiers:
+            GENERIC_ATTACK_DAMAGE:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: itemsadder
+              slot: HAND
+              uuid: 4dc5e1a3-a1c7-435c-90a4-2bd050d5784e
+              operation: 0
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: itemsadder
+              slot: HAND
+              uuid: c58f683c-f45a-415e-8ef9-ab0c9d580745
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/+NiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYGDQ4GDgzEvMTS0uSExORdbDwcCUmcLAk5RYnJqUmJMTn5RYwswgiNUINgb+tMTsVCRRB98GBggAAFe0hh6LAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: STICK
+        amount: 2
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: COBBLESTONE
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Christmas Tree"}'
+          custom-model-data: 10069
+          internal: H4sIAAAAAAAA/+NiYOBi4MosSc0tTkxJSS3iYODMS8xNLS5ITE5FFWfKTGHgS84oyiwuyU0sji8pSk1lYAAAviJVGT8AAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: OAK_LEAVES
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: OAK_LOG
+        amount: 32
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Christmas Wreath"}'
+          custom-model-data: 10072
+          internal: H4sIAAAAAAAA/+NiYOBi4MosSc0tTkxJSS3iYODMS8xNLS5ITE5FFWfKTGEQSM4oyiwuyU0sji8vSk0syWBgAACU6FawQQAAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: OAK_LEAVES
+        amount: 16
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: FEATHER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Straw Hat"}'
+          custom-model-data: 10006
+          internal: H4sIAAAAAAAA/+NiYOBi4MosSc0tTkxJSS3iYODMS8xNLS5ITE5FFWfKTGHgLC4pSiyPz0gsYWAAACHSkqw6AAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: HAY_BLOCK
+        amount: 4
+  snapshots: []
+'5':
+  uniqueId: 0789877d-bb90-4a05-b281-bb2cc9b27d16
+  world: world1
+  x: 51
+  y: 179
+  z: 1584
+  yaw: 115.62371
+  type: admin
+  name: Jerry
+  object:
+    type: axolotl
+    baby: false
+    axolotlVariant: LUCY
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: COOKED_PORKCHOP
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Taco"}'
+          custom-model-data: 10001
+          internal: H4sIAAAAAAAA/+NiYOBi4MosSc0tTkxJSS3iYGDKTGFgKUlMzudg4MxLzE0tLkhMTkVWwsAAAHShD8E1AAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: OAK_LOG
+        amount: 16
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: SHIELD
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"italic":false,"color":"white","text":"Turquoise Shield"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Durability: 1024 / 1024"}'
+          custom-model-data: 10005
+          internal: H4sIAAAAAAAA/22NsQ6DMAwFnwBVNAvtwP/0TyKDjbBKoI1jqf17JCYGbr+7AAQELZKMmCXX6BP94uhWthTZMw26aPkDDVrcV0piHxrl7LSolPEonr++qUm0WWXhG7qJ3nKKvBwHNZ6XA2AHeHAwcY8AAAA=
+          blockMaterial: SHIELD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LAPIS_LAZULI
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: IRON_INGOT
+        amount: 2
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: FEATHER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"red","text":"Santa Hat"}'
+          custom-model-data: 10036
+          internal: H4sIAAAAAAAA/03KMQoAIAwEsMPJ9pNy2IIOitj+H1czRwGFzvQVNPNbUaZBgjvZBrNCNpfHYff/AQ8gRyaDOgAAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: RED_WOOL
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: WHITE_WOOL
+        amount: 8
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"italic":false,"color":"white","text":"Turquoise helmet"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Durability: 175 / 175"}'
+          custom-model-data: 10002
+          attribute-modifiers:
+            GENERIC_ARMOR:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 9.0
+              name: itemsadder
+              slot: HEAD
+              uuid: e46ea059-33fa-4c82-bf45-461f5c4c1f90
+              operation: 0
+            GENERIC_ARMOR_TOUGHNESS:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 2.0
+              name: itemsadder
+              slot: HEAD
+              uuid: 790c1a66-c9d1-4be6-9de6-939ea3d86548
+              operation: 0
+          ItemFlags:
+          - HIDE_DYE
+          internal: H4sIAAAAAAAA/23MOw7CMBBF0ScsIccFEQX7Sc8irMEziBEYJ/5I0LEjthilc5Hb3+MAB6dVYiFmyQaXSB8fWqkpem6ZbvrS+gXwtxjeFKXMFKR/LA7KONWWl5a0iH8I8RHjnZ7SEdP1hy2D8y4PrNXT7duNAAAA
+          color:
+            ==: Color
+            RED: 117
+            BLUE: 190
+            GREEN: 190
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_HELMET
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LAPIS_LAZULI
+        amount: 32
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"italic":false,"color":"white","text":"Turquoise chestplate"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Durability: 300 / 300"}'
+          custom-model-data: 10002
+          attribute-modifiers:
+            GENERIC_ARMOR:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 7.0
+              name: itemsadder
+              slot: CHEST
+              uuid: 71512825-79c7-4243-85eb-32b164f953ca
+              operation: 0
+            GENERIC_ARMOR_TOUGHNESS:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 2.0
+              name: itemsadder
+              slot: CHEST
+              uuid: 0f58da07-7e42-4f69-adfd-66ce569007cd
+              operation: 0
+          ItemFlags:
+          - HIDE_DYE
+          internal: H4sIAAAAAAAA/23MMQ7CMAxG4Z9WQmmWiqG36CE4BHtkEqNabRqIHQluj8TUgbe/zwMeXoyzUkpce0yZ3iE2tZJDapXusol9gNPsMOyUWZ8U+fg4dJIwWquvVkQ5xIXVzhgftPLBuN7wq8flrw98Afo8DNWOAAAA
+          color:
+            ==: Color
+            RED: 117
+            BLUE: 190
+            GREEN: 190
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_CHESTPLATE
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LAPIS_LAZULI
+        amount: 32
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"italic":false,"color":"white","text":"Turquoise leggings"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Durability: 275 / 275"}'
+          custom-model-data: 10002
+          attribute-modifiers:
+            GENERIC_ARMOR:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 5.0
+              name: itemsadder
+              slot: LEGS
+              uuid: 90879f58-e7aa-4f75-8739-a2e39f7a21bb
+              operation: 0
+            GENERIC_ARMOR_TOUGHNESS:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 2.0
+              name: itemsadder
+              slot: LEGS
+              uuid: 20c8830d-2fc0-4b12-ac2e-636fdc2f5c7c
+              operation: 0
+          ItemFlags:
+          - HIDE_DYE
+          internal: H4sIAAAAAAAA/+NiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYGAU5mDgzEvMTS0uSExORdbDwcCUmcLAV1JaVFian1mcGp+Tml7MxsCflpidimSEQ9ABBhBgZhDEajwDAwCQ0YqUjQAAAA==
+          color:
+            ==: Color
+            RED: 117
+            BLUE: 190
+            GREEN: 190
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_LEGGINGS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LAPIS_LAZULI
+        amount: 32
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"italic":false,"color":"white","text":"Turquoise boots"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Durability: 225 / 225"}'
+          custom-model-data: 10002
+          attribute-modifiers:
+            GENERIC_ARMOR:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 3.0
+              name: itemsadder
+              slot: FEET
+              uuid: 72fbef40-4a93-42c9-91f1-78e998245d5e
+              operation: 0
+            GENERIC_ARMOR_TOUGHNESS:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 2.0
+              name: itemsadder
+              slot: FEET
+              uuid: 9af85a6b-5a3e-4d0a-b1dd-e21d0e99e825
+              operation: 0
+          ItemFlags:
+          - HIDE_DYE
+          internal: H4sIAAAAAAAA/23MQQqDMBBG4R+FotlIF97HI3iDMJopDBrTZiZQj+tNxJ0L3/59DnBwYhyVQuBco4/093NRS9GHkmmSVWwHcDRoN4qsX5r5/jSoJKCzkn8libKfUjJ9ofvQwjdjGAdc1Xg/+sAJb4kvRo4AAAA=
+          color:
+            ==: Color
+            RED: 117
+            BLUE: 190
+            GREEN: 190
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_BOOTS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LAPIS_LAZULI
+        amount: 32
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Turquoise Sword"}'
+          lore:
+          - '{"text":""}'
+          - '{"italic":false,"color":"gray","text":"When in Main Hand:"}'
+          - '{"italic":false,"extra":[{"color":"dark_green","text":"8 Attack Damage"}],"text":"
+            "}'
+          - '{"italic":false,"extra":[{"color":"dark_green","text":"1.6 Attack Speed"}],"text":"
+            "}'
+          - '{"italic":false,"color":"gray","text":"Durability: 1162 / 1162"}'
+          custom-model-data: 10016
+          attribute-modifiers:
+            GENERIC_ATTACK_DAMAGE:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 6.0
+              name: itemsadder
+              slot: HAND
+              uuid: 9453f817-660d-45ab-9558-6c5ace168b16
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/23MMQ6DMAxG4V+AEM2CGLgPN4lcbCSrhLRxItor9AQct2Jj6Nvf5wAHp1mCEbOkGmOgt5+L5Rg8l0R3XTV/gObb4bZREHvSLNenQ6WMPpf0KlFNvO0xcYt+oYdcjOlgnNUY/vrAD5wsnKGOAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_SWORD
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LAPIS_LAZULI
+        amount: 32
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Turquoise Axe"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Durability: 1561 / 1561"}'
+          custom-model-data: 10002
+          internal: H4sIAAAAAAAA/23MTQqDMBCG4Q8DwQaKdOHC2/QmYZqZwqAxbX5Ab9LjSncufPfv4wAHp1ViIWbJBmOkzYdWaoqeW6aXLlp3wE49bitFKR8Kcn56dMq415a/LWkRT5tYDG+a5SQ8f4x/Bo9LHTgAmvp7c4wAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_AXE
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LAPIS_LAZULI
+        amount: 32
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Turquoise Shovel"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Durability: 1561 / 1561"}'
+          custom-model-data: 10002
+          internal: H4sIAAAAAAAA/22NQQ6CMBBFfyQh0I24cOFtvEkzMEOYSC12WoI38biEHQvf/r3nAAenWYIRs6QK90CbH4rlGDyXRL3Omr9A/WjQvimILTTI2WlwUUaXS/qUqCbeprjKXOM60ktOkeePcVDh9ncA7J2LqwGPAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_SHOVEL
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LAPIS_LAZULI
+        amount: 32
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Turquoise Pickaxe"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Durability: 1561 / 1561"}'
+          custom-model-data: 10005
+          internal: H4sIAAAAAAAA/22NSwqEMBAFHwriZCMuXHgbbxJ60i00Gj/5QOYmHndw58LaV5UBDIwm8ZGYJdQYPBXrcky7t5wDfXXV9AOascVnIy/xICdPp0WljD7lcOZdo9hD3UJFGnQzLfKoTBfjpkb/egD+8opXppAAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_PICKAXE
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LAPIS_LAZULI
+        amount: 32
+  snapshots: []
+'6':
+  uniqueId: 2a2636b3-4cbd-489f-9783-5dd6000b0137
+  world: world1
+  x: 787
+  y: 62
+  z: 703
+  yaw: 57.387627
+  type: admin
+  name: Timothy
+  object:
+    type: cat
+    baby: false
+    sitting: true
+    catType: BLACK
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: FEATHER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Witch Hat"}'
+          custom-model-data: 10033
+          internal: H4sIAAAAAAAA/+NiYOBi4MosSc0tTkxJSS3iYGDKTGHgLM8sSc6Iz0gs4WDgzEvMTS0uSExORVbHwAAA2+oA8DoAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: FERMENTED_SPIDER_EYE
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: REDSTONE
+        amount: 64
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: IRON_INGOT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Amethyst"}'
+          custom-model-data: 10005
+          internal: H4sIAAAAAAAA/+NiYOBi4MosSc0tTkxJSS3iYGDKTGHgSMxNLcmoLC7hYODMA7KLCxKTU5GVMTAAACfiUHs5AAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: IRON_INGOT
+        amount: 32
+  snapshots: []

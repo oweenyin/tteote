@@ -1,0 +1,89 @@
+on entering the region "start":
+	execute console command "/rg addmember forest %player%"
+	execute console command "/rg addmember -w world1 korraregion %player%"
+	make the player execute command "/bending board"
+	stop sound "sound.custom.lobby_music" in record category for player
+	stop sound "music.creative" in music category for player
+	stop sound "music.game.creative" in music category for player
+	execute console command "/screeneffect fullscreen BLACK 30 200 10 freeze %player%"
+	wait 2 seconds
+	teleport the player to location(-978, 64, 2206, world("world1"), -180, 0)
+	send "<##faefca><????> Wake up." to player
+	wait 3 seconds
+	send "<##faefca><????> I said wake the FUCK up" to player
+	wait 2 seconds
+	send "<##faefca><????> You've made it." to player
+	wait 3 seconds
+	send "<##faefca><????> It's time your journey begins" to player
+	play sound "sound.custom.intro_music" in record category at volume 0.5
+	wait 3 seconds
+	send "<##faefca><????> Welcome," to player
+	wait 0.5 second
+	send title "To The Ends of the Earth" to player for 8 seconds with fade-in 5 seconds and fade-out 6 seconds
+	wait 18 seconds
+	send "<##faefca><????> Follow the river. Helpful people are there." to player
+	wait 5 seconds
+	send "explore the village and find the priest." to player
+on entering the region "spawn":
+	stop sound "sound.custom.lobby_music" in record category for player
+	stop sound "sound.custom.intro_music" in record category for player
+	stop sound "music.menu" in music category for player
+	stop sound "music.game" in music category for player
+	stop sound "music.game.creative" in music category for player
+	stop sound "music.creative" in music category for player
+	play sound "sound.custom.lobby_music" in record category at volume 0.2
+
+on entering the region "cerberusarena":
+	set {boss_present} to false
+	play sound "sound.custom.cerberus_fight" in music category at volume 0.2
+	loop entities in radius 50 of location(-417,8,1069, world("world1")):
+		send loop-entity
+		if loop-entity is an iron golem:
+			send "already there"
+			set {boss_present} to true
+			exit loop
+	if {boss_present} is false:
+		execute console command "/mm m spawn cerberus 1 world1,-417,9,1069"
+
+on exiting the region "cerberusarena":
+	stop sound "sound.custom.cerberus_fight" in music category for player
+
+on entering the region "korraregion":
+	make the player execute command "/bending board"
+	set {element} to a random integer from 0 to 3
+	send {element}
+	if {element} is 0:
+		execute console command "/b add air %player%"
+	else if {element} is 1:
+		execute console command "/b add earth %player%"
+	else if {element} is 2:
+		execute console command "/b add fire %player%"
+	else if {element} is 3:
+		execute console command "/b add water %player%"
+	execute console command "/rg removemember -w world1 korraregion %player%"
+
+on entering the region "bossarena":
+	if {act1} is false:
+		send ""
+	else:
+		execute console command "/mm m spawn giant_zombie world1,1050,91,-1723"
+
+on entering the region "forest":
+	set {musicval} to a random integer from 0 to 10
+	if {musicval} is less than 4:
+		play sound "sound.custom.enter_forest" in record category at volume 0.1
+
+on entering the region "forest2":
+	set {musicval} to a random integer from 0 to 10
+	if {musicval} is less than 4:
+		play sound "sound.custom.enter_forest1" in record category at volume 0.1
+
+on entering the region "forest3":
+	set {musicval} to a random integer from 0 to 10
+	if {musicval} is less than 3:
+		play sound "sound.custom.enter_forest2" in record category at volume 0.1
+
+command /endofactone <boolean>:
+	executable by: the console and players
+	trigger:
+		set {act1} to boolean-argument

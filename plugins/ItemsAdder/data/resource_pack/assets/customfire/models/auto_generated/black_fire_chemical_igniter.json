@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "customfire:item/black_fire_chemical_igniter"
+  }
+}

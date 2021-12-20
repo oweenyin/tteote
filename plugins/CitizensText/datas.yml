@@ -1,0 +1,164 @@
+# Do not edit anything here! Everything should be modified in-game.
+data:
+- npc: 2
+  players:
+    c0e94f96-4ef1-4826-bc74-5711a412d749: 3
+  messages:
+    0: Oh hey.
+    1: You're wondering why I look like this?
+    2: Well Jawari doesn't believe me, but I came from an island a ways north of here.
+    3: I'm not actually human if you can believe it.
+    4: The people in the forest town took me in and taught me how to be more
+    5: human, I guess.
+- npc: 9
+  messages:
+    0: You, you broke through tha ceiling!
+    1: Ahhh, no matter. Velcom to Tall Dwarf village my friend!
+    2: I'm surprised you lasted this long in the everjungle my friend!
+    3: There's not many people around anymore, but the golems keep us safe from any
+      intruders.
+    4: So please, explore and make yourself at home my friend!
+- npc: 18
+  messages:
+    0: oh hey.
+    1: i'm not homeless or anything, all my clothes are washing right now.
+    2: i've never seen you around here before, so you must be a traveller.
+    3: my husband is upstairs, but have you heard about the elemental powers of this
+      world?
+    4: i heard that in a valley somewhere on this island, you can unlock such skills.
+    5: but what do i know, i'm just a guy in the forest.
+- npc: 3
+  messages:
+    0: IM SO FUCKING HIGH
+    1: I HAVE NO IDEA HOW I GOT HERE
+    2: sorry, i dont really talk like that
+    3: i feel more confident if i yell though
+- npc: 6
+  messages:
+    0: I Like The Natural Decor.
+- npc: 12
+  messages:
+    0: I want to go back to the mainland
+    1: Down here is cold and lonely, and we can't escape due to the dangers of the
+      everjungle
+- npc: 8
+  messages:
+    0: Everyone here treats me like a celebrity, so I just stay here in the tower.
+    1: It's all because of my twice removed cousin, Sky.
+    2: Fuck that dude, but I hope he's doing well.
+- npc: 20
+  messages:
+    0: i don't have much,,, but it should help you along the way,,,
+- npc: 23
+  messages:
+    0: There's not much here in this village.
+    1: It's pretty much just me here, and Pang whenever he wants to visit.
+    2: Weird guy, but he's company.
+- npc: 27
+  messages:
+    0: ouuuuu.... thise zombifyinge potione is workinge too gooode...
+    1: cante talk.... witchinge hours are approachinge..... hee.........hee.....................hee..................
+    2: fucke.
+- npc: 24
+  messages:
+    0: holy FUCK where did you come from
+    1: jesus fucking christ im butt ass naked and youre just standing here talking
+      to me
+    2: go talk to someone else leave me the fuck alone dude
+    3: mothfry is pretty welcoming shed love to talk to you
+    4: just please go away
+- npc: 4
+  messages:
+    0: i saw the edge of the everjungle once.
+    1: eyes stared back.
+- npc: 21
+  messages:
+    0: hello.
+    1: if you wish to not see the bending board, do /b board.
+    2: there are spots around the world to learn more abilities.
+- npc: 17
+  messages:
+    0: Oh Hey.
+    1: My Neighbor Is Selling Items Next Door, And His Husband Has Info That Might
+      Be Useful To Travellers.
+    2: They're Nice People, Really
+    3: But Deciding To Build Your House Next To A Complete Stranger In The Middle
+      Of The Woods On A Sparsely Populated Island Is Pretty Weird.
+- npc: 7
+  messages:
+    0: I came from the mainland and Jawari's practically a dad to me.
+    1: He lets me stay here and all I gotta do is attend his shitty sermons.
+    2: Pretty good deal!
+- npc: 22
+  messages:
+    0: hello again.
+    1:
+      text: this will aide you on your journey.
+      commands:
+      - b bind airswipe 1
+      - b bind fireblast 1
+      - b bind earthblast 1
+      - b bind watermanipulation 1
+- npc: 25
+  players:
+    c0e94f96-4ef1-4826-bc74-5711a412d749: 1
+  messages:
+    0: Oh hi! I've never seen you before so barging into my house is kinda weird,
+      but it's whatever.
+    1: Your name is {PLAYER}? Well nice to meet you!
+    2: We furpeople have lived on this tree since it was a little sapling.
+    3: Back then, the everjungle was just a plains for miles. Nobody knows what happened,
+      but one day we went to sleep and the tree grew to the height it's at now!
+    4: It sucked up all the nutrients in the dirt, which is why most of the trees
+      in this area are dead.
+    5: We tried scouting the island for more places to move, but the people who left
+      never seemed to come back.
+    6: Except Pang, but I have no fucking clue what he's doing right now.
+    7: You'll probably find him in the birch village, or doing whatever weird shit
+      he likes to do.
+- npc: 13
+  messages:
+    0: How old am I? Nearing 324.
+    1: While I'm curious about how you entered this village, I must offer warning
+      about the everjungle.
+    2: They say it was created to keep travellers away from a treasure holding great
+      destructive capability.
+    3: Supposedly, the weapon has the potential to end the world as we know it.
+- npc: 16
+  messages:
+    0: My daughter is upstairs.
+    1: She's the one always bringing in the money, but I can never figure out how.
+- npc: 14
+  messages:
+    0: These golems scare the fuck out of me.
+- npc: 0
+  messages:
+    0: who are you
+    1: oh youre not from here
+    2: you GOD DAMNED travellers keep washing up on the GOD DAMNED shore
+    3: well ill tell you the same thing i tell everyone else who finds their way here
+    4: right now you're at heartford village, the southernmost point on this island
+    5: up north lies everything else, the forests, the plains, the mountains, as well
+      as other people
+    6: all previous travellers have reached a point on this island where reality ends
+      and death and violent suffering begins
+    7: be it by fighting the very ones they arrived with or by the evil, demonic creatures
+      that lurk ahead
+    8: either way, stay safe and try not to die
+    9: now get the fuck out
+- npc: 15
+  times: {}
+  messages:
+    0: hey there ;)
+    1:
+      text: you look tired, let me heal your wounds for you.
+      commands:
+      - console: true
+        command: effect give {PLAYER} regeneration 60
+      - 'screeneffect fullscreen #FFC9D9 5 10 5 freeze'
+- npc: 26
+  messages:
+    0: I remember when we used to live close to the ground.
+    1: I kinda miss it, but you'll never get a view like this anywhere else.
+    2: But boy do I miss italian cuisine.
+lastVersion: '1.2'

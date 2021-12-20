@@ -1,0 +1,9 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.6
+
+boss_present, boolean, 01
+element, long, 0000000000000001
+musicval, long, 0000000000000008
+
